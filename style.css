@@ -1,0 +1,148 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgb(21, 24, 24) 50%, lightgreen);
+
+  /* background-image: linear-gradient(lightgreen, rgb(21, 24, 24) 50%); */
+  /* background: black; */
+}
+
+.label {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 0px;
+  color: white;
+}
+
+.partition {
+  margin-top: -30px;
+  text-align: center;
+  color: white;
+}
+
+.calculatorBody {
+  /* position: fixed; */
+  /* margin-top: -60px; */
+  margin: 2rem;
+  background-color: rgb(183, 235, 236);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 7px;
+  width: 401.5px;
+  height: (442+45) px;
+  padding-bottom: 4px;
+  padding-right: 0;
+}
+
+input[type="text"] {
+  text-align: centre;
+  border-style: solid;
+  height: 50px;
+  margin-bottom: 0px;
+  width: 98%;
+}
+
+.operators1,
+.operators2,
+.operators3,
+.operators4,
+.operators5,
+.operators6 {
+  display: flex;
+  justify-content: centre;
+  gap: 10px;
+}
+
+.op1,
+.op2,
+.op3,
+.op4 {
+  font-size: 50px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: centre;
+  gap: 10px;
+}
+
+.op,
+.num,
+.ans {
+  display: block;
+  /* border: 1px solid rgb(201, 55, 55); */
+  width: 101px;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 10px;
+  border-color: rgb(241, 123, 123);
+  /* border-bottom-right-radius: 9px; */
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.out {
+  font-size: 30px;
+  padding-top: 30px;
+  text-align: center;
+  background: rgb(246, 248, 247);
+  border-bottom: 2px solid maroon;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+
+.op3 {
+  padding-top: 10px;
+}
+
+.op {
+  /* font-size: 30px; */
+  background: rgb(119, 185, 238);
+  color: black;
+}
+
+button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.op:hover {
+  /* background: rgb(247, 160, 203); */
+  /* background: rgb(247, 81, 114); */
+  /* opacity: 0.8; */
+  color: black;
+  font-size: larger;
+}
+
+.num {
+  /* opacity: 0.4; */
+  background: rgb(49, 236, 180);
+  color: black;
+}
+
+.num:hover {
+  /* opacity: 1; */
+  font-size: bold;
+}
+
+.trig {
+  background: rgb(54, 154, 247);
+  color: black;
+}
+
+.back,
+.ans,
+.cancelAll {
+  background: rgb(54, 73, 247);
+  color: black;
+}
+
+.alg {
+  background: rgb(116, 194, 129);
+  color: black;
+}
